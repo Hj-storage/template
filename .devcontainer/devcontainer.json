@@ -1,0 +1,10 @@
+{
+	"name": "Discord Bot",
+	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+	"features": {
+		"ghcr.io/devcontainers-contrib/features/coverage-py:2": {
+			"version": "latest"
+		}
+	},
+	"postCreateCommand": "pip3 install --user -r requirements.txt"
+}
